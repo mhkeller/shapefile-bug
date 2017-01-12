@@ -1,0 +1,15 @@
+{
+  "name": "shapefile-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "shp2json us-states/us-states.shp > us-states.geojson"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "shapefile": "^0.5.10"
+  }
+}
